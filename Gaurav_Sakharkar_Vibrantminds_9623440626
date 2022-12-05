@@ -1,0 +1,31 @@
+.box1,
+.box2,
+.box3,
+.box4 {
+  height: 150px;
+  width: 200px;
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: yellow;
+}
+.box3 {
+  background-color: orange;
+}
+.box4 {
+  background-color: green;
+}
+
+.grid {
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+button {
+  width: 200px;
+  height: 150px;
+}
